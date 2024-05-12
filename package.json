@@ -17,6 +17,8 @@
     "@types/react-dom": "^18.2.25",
     "astro": "^4.6.3",
     "astrojs-service-worker": "^2.0.0",
+    "markdown-to-jsx": "^7.4.7",
+    "node-fetch": "^3.3.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "typescript": "^5.4.5"

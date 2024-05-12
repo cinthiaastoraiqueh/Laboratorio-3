@@ -1,0 +1,14 @@
+---
+import { fetchArticles } from '../utils/api';
+const articles = await fetchArticles();
+---
+
+<main>
+  <h1>Blog</h1>
+  {articles.map(article => (
+    <article key={article.id}>
+      <h2>{article.title}</h2>
+      <p>{article.content}</p>
+    </article>
+  ))}
+</main>
